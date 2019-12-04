@@ -3,9 +3,18 @@ package com.microservice.movieCatlog.model;
 public class Movie {
     private long movieId;
     private String name;
+    private String portno;
 
     public Movie() {
 
+    }
+
+    public String getPortno() {
+        return portno;
+    }
+
+    public void setPortno(String portno) {
+        this.portno = portno;
     }
 
     public long getMovieId() {
